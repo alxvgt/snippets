@@ -5,11 +5,11 @@
 # wget -O - https://raw.githubusercontent.com/alxvgt/snippets/master/about-host.sh --no-cache | bash
 
 clear
-printf "\n------------------- Host informations -----------------------\n";
-printf "\n##### Hostname\n";
-printf "\n\`\`\`\n";
-hostname;
-printf "\n\`\`\`\n";
+printf "\n------------------- Host informations -----------------------\n"
+printf "\n##### Hostname\n"
+printf "\n\`\`\`\n"
+hostname
+printf "\n\`\`\`\n"
 printf "\n#### /etc/hosts\n"
 printf "\n\`\`\`\n"
 cat /etc/hosts
